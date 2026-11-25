@@ -1,0 +1,88 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content="Aaron J. Black is a PhD candidate in finance at the University of St. Gallen and the Swiss Finance Institute." />
+    <title>Aaron J. Black | Finance PhD Candidate</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <a class="site-name" href="#top">Aaron Black</a>
+    </header>
+
+    <div class="layout" id="top">
+      <aside class="profile">
+        <img class="profile-photo" src="graphics/headshot03.jpg" alt="Aaron J. Black" />
+        <h1>Aaron J. Black</h1>
+        <p>PhD Candidate in Finance<br />University of St. Gallen<br />Swiss Finance Institute</p>
+        <p class="address">St. Gallen, Switzerland</p>
+        <p><a href="mailto:aaronjames.black@unisg.ch">aaronjames.black@unisg.ch</a></p>
+        <p class="profile-links"><a href="https://www.linkedin.com/in/aaron-black-a05239112/" target="_blank" rel="noopener noreferrer">LinkedIn</a></p>
+        <!-- Add further profile links once you have the real URLs.
+        <p class="profile-links"><a href="#">Google Scholar</a><br /><a href="#">ORCID</a></p>
+        -->
+      </aside>
+
+      <main>
+        <section class="intro">
+          <p>I am a PhD candidate in finance at the University of St. Gallen and the Swiss Finance Institute. My research studies how financial intermediaries and platforms shape investor behaviour and market outcomes.</p>
+          <p>My job-market paper examines how finfluencers affect retail investor trading. In other work, I study competition and strategic price setting in the mutual-fund industry. I approach economically important questions using natural-language processing, network analysis, and other data-driven methods for financial markets.</p>
+        </section>
+
+        <section id="research">
+          <h2>Working Papers</h2>
+          <div class="research-panels">
+            <article class="research-panel">
+              <div>
+                <h3>YouTube Finfluencers and Retail Investor Stock Trading</h3>
+                <p class="details"><a href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=6451318">Read the paper</a></p>
+                <details>
+                  <summary>Abstract</summary>
+                  <p>I study stock-investing finfluencers on YouTube using a large language model to identify stock mentions and sentiment in video transcripts. Retail buying rises soon after a stock is mentioned, suggesting that finfluencers act as important retail-facing market intermediaries.</p>
+                </details>
+              </div>
+              <figure>
+                <img src="graphics/figure_finfluencers.png" alt="Line chart showing an increase in retail buying after a YouTube video is published." />
+                <figcaption>Retail buying following a video publication.</figcaption>
+              </figure>
+            </article>
+
+            <article class="research-panel">
+              <div>
+                <h3>Pricing Differentiated Funds: The Puzzle of ESG Fund Fees</h3>
+                <p class="details">with Julian F. Kölbel. Second Place, MCC Best Paper Award 2025. <a href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5053459">Read the paper</a></p>
+                <details>
+                  <summary>Abstract</summary>
+                  <p>We document that ESG funds charge lower fees than comparable conventional funds, despite stronger net returns and greater textual differentiation. This pattern challenges standard theories of fee setting based on performance signals and competitive differentiation.</p>
+                </details>
+              </div>
+              <figure>
+                <img src="graphics/figure_fund_fees.png" alt="Scatterplot comparing actual and predicted expense ratios for ESG funds." />
+                <figcaption>Predicted versus actual ESG fund fees.</figcaption>
+              </figure>
+            </article>
+          </div>
+        </section>
+
+        <section>
+          <h2>Research Interests</h2>
+          <p>Financial intermediation · Retail investor behaviour · Mutual funds · Financial platforms</p>
+        </section>
+
+        <!-- Keep this section for later. HTML comments are not shown in the browser.
+        <section id="publications">
+          <h2>Publications</h2>
+          <ul class="paper-list">
+            <li><span>[Publication title]</span><br /><span class="details">[Journal], [year]. <a href="#">Publication</a></span></li>
+          </ul>
+        </section>
+        -->
+      </main>
+    </div>
+
+    <footer>© <span id="year"></span> Aaron J. Black</footer>
+    <script>document.getElementById("year").textContent = new Date().getFullYear();</script>
+  </body>
+</html>
